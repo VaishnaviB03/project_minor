@@ -529,25 +529,24 @@ form {
     margin-bottom: 40px;
 }
 
-.skills button {
+.skills a {
     font-size: 22px;
     text-align: center;
     letter-spacing: 2px;
     border: none;
     border-radius: 20px;
-    padding: 8px;
-    width: 200px;
+    padding: 0 20px 0 20px;
     background-color: #343535;
     color: white;
     cursor: pointer;
 }
 
-.skills button:hover {
+.skills a:hover {
     transition: 1s;
     background-color: #ecf5f5;
     color: #00999c;
     font-weight: 600;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
 }
 
 
@@ -568,7 +567,7 @@ form {
 -----------------------*/
 
 .our_team {
-    height: 110vh;
+    height: 100vh;
 }
 
 h1.team {
@@ -576,10 +575,9 @@ h1.team {
     font-weight: 600;
     margin-left: 20%;
     font-style: normal;
-    margin-top: 0;
     letter-spacing: 3rem;
     color: #abb6bd;
-    text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
+    /* text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191, 1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4); */
 }
 
 .mem1 {
@@ -747,10 +745,6 @@ h1.name1 {
     opacity: 0.5;
 }
 
-.footer-widget .single-footer-widget ul li:hover {
-    cursor: pointer;
-}
-
 .social-links-warp {
     background: #222121;
     padding: 40px;
@@ -774,8 +768,8 @@ h1.name1 {
     transition: all 0.3s;
 }
 
-.social-links a:nth-child(1) {
-    color: #0097e6;
+.social-links a .instagram i {
+    color: #00999c;
 }
 
 
